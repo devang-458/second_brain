@@ -1,7 +1,6 @@
 import { connectDb } from "@/lib/mongo";
 import User from "@/models/User";
 import bcrypt from "bcryptjs";
-import { Just_Me_Again_Down_Here } from "next/font/google";
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
 
